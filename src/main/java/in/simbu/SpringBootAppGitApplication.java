@@ -12,6 +12,7 @@ public class SpringBootAppGitApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(SpringBootAppGitApplication.class, args);
 		context.getBean(Car.class);
+		int a =50;
 		
 	}
 
